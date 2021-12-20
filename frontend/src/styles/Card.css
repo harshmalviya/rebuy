@@ -1,0 +1,88 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.5rem;
+  background-color: white;
+  padding: 3rem;
+  max-width: 26%;
+}
+
+.card__image {
+  width: 100%;
+  max-width: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+}
+
+.card__image > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  margin: 2rem 0;
+}
+
+.card__content .card__heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.card__content .card__description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  border: 1px solid red;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 1100px) {
+  .card {
+    max-width: 40%;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    max-width: 60%;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    max-width: 80%;
+    margin-bottom: 3rem;
+  }
+}
+/*# sourceMappingURL=Card.css.map */

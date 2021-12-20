@@ -1,0 +1,92 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.2rem 5rem;
+  background-color: #748ffc;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav .action {
+  background-color: red;
+  padding: 0 1.6rem;
+  border-radius: 2rem;
+}
+
+.nav .mobile__add {
+  display: none;
+}
+
+.nav__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__item:last-child {
+  margin-right: 0;
+}
+
+.nav__item > a,
+.nav__item > p {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav__item > a > i,
+.nav__item > p > i {
+  font-size: 2.5rem;
+}
+
+.nav__item > a:hover,
+.nav__item > p:hover {
+  color: #ecdbdb;
+}
+
+@media screen and (max-width: 690px) {
+  .nav {
+    padding: 1.2rem 1rem;
+  }
+  .nav .action {
+    display: none;
+  }
+  .nav .mobile__add {
+    display: block;
+  }
+  .nav .mobile__add > i {
+    color: red;
+    font-size: 2.5rem;
+  }
+  .nav__item {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

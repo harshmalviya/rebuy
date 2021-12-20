@@ -1,0 +1,116 @@
+.auth {
+  width: 25%;
+  margin: 15vh auto;
+}
+
+.auth__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #ccc;
+  padding: 2.5rem;
+}
+
+.auth__heading {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.auth__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.auth__form__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.auth__form__group > label {
+  font-size: 1.7rem;
+  margin-bottom: 0.4rem;
+}
+
+.auth__form__group > input {
+  width: 18vw;
+  padding: 0.6rem 0.4rem;
+}
+
+.auth__form__group > input:focus {
+  outline: none;
+}
+
+.auth__form__action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2.5rem 0;
+}
+
+.auth__form__action > a {
+  font-size: 1.7rem;
+  color: #000;
+  margin-bottom: 0.8rem;
+  text-decoration: none;
+}
+
+.auth__form__action > a:hover {
+  text-decoration: underline;
+}
+
+.auth__form__action > button {
+  width: 100%;
+  padding: 0.6rem 0.4rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.auth__form__action > button:hover,
+.auth__form__action > button:focus {
+  background-color: #333;
+}
+
+.auth__form__action > button:disabled {
+  background-color: #ccc;
+}
+
+@media (max-width: 1268px) {
+  .auth {
+    width: 50%;
+  }
+  .auth__container {
+    padding: 1.5rem;
+  }
+}
+/*# sourceMappingURL=Auth.css.map */
