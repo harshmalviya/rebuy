@@ -4,6 +4,7 @@ The website is hosted on: [Click here!](https://rebuy-7e8ad.web.app/)
 The backend is hosted on: [Click here!](https://capitall-assignment.herokuapp.com/)
 
 rebuy/
+
 ┣ backend/
 
 ┗ frontend/
