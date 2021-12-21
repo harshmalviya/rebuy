@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { useHistory } from "react-router-dom";
 
 const AuthContext = React.createContext({
   checkAuth: () => {},
@@ -13,7 +12,6 @@ const AuthContext = React.createContext({
 export const AuthContextProvider = (props) => {
   const [isLoggedIn, setIsLoggedIn] = useState(null);
   const [userData, setUserData] = useState({});
-  const history = useHistory();
 
   const checkAuth = async () => {
     if (localStorage.getItem("token")) {

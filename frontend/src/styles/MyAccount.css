@@ -63,4 +63,13 @@
 .account__products > h1 {
   font-size: 2.5rem;
 }
+
+@media screen and (max-width: 690px) {
+  .account__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=MyAccount.css.map */

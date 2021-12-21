@@ -44,3 +44,9 @@
     }
   }
 }
+
+@media screen and (max-width: 690px) {
+  .account__info {
+    flex-direction: column;
+  }
+}
